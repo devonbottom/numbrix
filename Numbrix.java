@@ -18,6 +18,7 @@ public class Numbrix
 	 */
 	public Numbrix(String fileName) throws FileNotFoundException
     {
+		new Scanner(new File(fileName));
     }
 
 	/**
